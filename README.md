@@ -1,14 +1,20 @@
 # allbrew
 
-Crawls brew graph
+Crawls [homebrew](https://github.com/Homebrew/homebrew) graph.
 
 # install
 
-With [npm](https://npmjs.org) do:
+This simple steps will produce local version of the brew graph:
 
 ```
-npm install allbrew
+git clone https://github.com/anvaka/allbrew
+cd allbrew
+npm install
+node layout.js
 ```
+
+The ouptut is stored to `./data` folder, and can be consumed by [pm visualization](https://github.com/anvaka/pm)
+
 
 # license
 
