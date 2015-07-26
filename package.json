@@ -1,0 +1,22 @@
+{
+  "name": "allbrew",
+  "version": "1.0.0",
+  "description": "Crawls brew graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ngraph",
+    "visualization",
+    "indexer",
+    "crawler",
+    "brew"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/allbrew"
+  }
+}
