@@ -4,7 +4,7 @@ Crawls [homebrew](https://github.com/Homebrew/homebrew) graph.
 
 # install
 
-This simple steps will produce local version of the brew graph:
+These simple steps will produce local version of the brew graph:
 
 ```
 git clone https://github.com/anvaka/allbrew
