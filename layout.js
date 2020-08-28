@@ -3,7 +3,14 @@ require('./lib/loadGraph.js')(runLayout);
 
 function runLayout(graph) {
   var layout = require('ngraph.offline.layout')(graph, {
-    iterations: 125
+    layoutOptions: {
+      springLength: 30,
+      springCoeff: 0.0008,
+      gravity: -1.2,
+      dragCoeff: 0.02,
+      timeStep : 20,
+    },
+    iterations: 200
   });
 
   console.log('Starting layout');
